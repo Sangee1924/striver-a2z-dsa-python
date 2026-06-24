@@ -6,10 +6,10 @@ def Bubble_sort(arr,n):
                 temp = arr[j]
                 arr[j]=arr[j+1]
                 arr[j+1]= temp
-                DidSwap = 1
+                DidSwap += 1
         if DidSwap == 0:
             break
-    print(arr)
+    print("sorted Array :",arr)
 
 
 

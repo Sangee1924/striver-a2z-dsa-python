@@ -6,7 +6,7 @@ def Insertion_sort(arr,n):
             arr[j]=arr[j-1]
             arr[j-1] = temp
             j-=1
-    print(arr)
+    print("Sorted Array :",arr)
 
 
 

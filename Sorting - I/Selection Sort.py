@@ -7,7 +7,7 @@ def selection_sort(n,arr):
         temp = arr[i]
         arr[i] = arr[mini]
         arr[mini] = temp
-    print(arr)
+    print("Sorted Array :",arr)
 
 
 n = int(input("Length of Arr: "))
